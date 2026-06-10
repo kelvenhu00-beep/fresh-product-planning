@@ -14,3 +14,17 @@
 # ===== AI 临时文件 =====
 .ai/scratch/
 *.ai-tmp
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== 运行期数据（多设备同步主存储，按需备份不进 git） =====
+state.json
+state.json.tmp
+state.json.backup.*
+
+# ===== 衍生交付物（不进 git） =====
+*.zip
+procurement_plan_server_test_*/
+交付包_*/

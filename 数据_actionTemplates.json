@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "watch-weather",
+      "name": "关注天气与产区动态",
+      "defaultOffsetWeeks": -8,
+      "urgency": "中",
+      "description": "在大量上市前 8 周开始关注主产区天气、灾害、坐果情况，预判产量与价格。",
+      "checklist": [
+        "查看主产区未来 30 天天气预报",
+        "关注农业气象灾害预警（霜冻 / 冰雹 / 暴雨）",
+        "了解坐果率、果实生长情况",
+        "记录到产区微信群 / 行业群"
+      ]
+    },
+    {
+      "id": "contact-origin",
+      "name": "联系产地供应商",
+      "defaultOffsetWeeks": -6,
+      "urgency": "中",
+      "description": "与去年合作供应商提前联系，确认本年度供货意向、产量预期、初步价格。",
+      "checklist": [
+        "整理去年合作供应商名单",
+        "电话 / 微信沟通本年度产量预期",
+        "了解供应商是否需要预付款 / 预定",
+        "标记可信度高的 3 家进入下一轮"
+      ]
+    },
+    {
+      "id": "collect-quote",
+      "name": "收集报价",
+      "defaultOffsetWeeks": -4,
+      "urgency": "高",
+      "description": "在大量上市前 4 周向 3 家以上供应商索取正式报价，对比规格与价格。",
+      "checklist": [
+        "明确采购规格 / 等级 / 包装",
+        "至少 3 家供应商书面报价",
+        "对比单价 / 物流 / 账期 / 售后",
+        "记录到报价表"
+      ]
+    },
+    {
+      "id": "visit-origin",
+      "name": "产地走访",
+      "defaultOffsetWeeks": -2,
+      "urgency": "高",
+      "description": "高价值品类或大额订单，在上市前 2 周到产地实地查看果园 / 包装厂 / 库存。",
+      "checklist": [
+        "实地查看果园品质与产量",
+        "检查包装厂卫生与分选标准",
+        "确认库存与发货能力",
+        "拍摄实景照片留档"
+      ]
+    },
+    {
+      "id": "lock-price",
+      "name": "锁价 / 签合同",
+      "defaultOffsetWeeks": -1,
+      "urgency": "高",
+      "description": "锁定价格与数量，签订采购合同。重点品类需在大量上市前 1 周完成。",
+      "checklist": [
+        "确认最终采购数量与规格",
+        "锁定单价或浮动机制",
+        "签订书面合同 / 订单",
+        "约定到货时间与质量验收标准"
+      ]
+    }
+  ]
+}
