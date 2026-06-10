@@ -1,0 +1,16 @@
+
+# ===== AI 工具个人凭证 (绝不能进仓库) =====
+.codex/auth.json
+.codex/sessions/
+.codex/cache/
+.claude/.credentials.json
+.claude/sessions/
+.claude/settings.local.json
+
+# ===== 环境变量 =====
+.env
+.env.local
+
+# ===== AI 临时文件 =====
+.ai/scratch/
+*.ai-tmp
