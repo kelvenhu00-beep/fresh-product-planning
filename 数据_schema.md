@@ -204,6 +204,53 @@ type Action = {
 
 ---
 
+## 五-A、Supplier 字段（供应商档案）
+
+```ts
+type Supplier = {
+  id: string;                  // "sup-" + timestamp36
+  name: string;                // 公司 / 合作社 / 个人名
+  contactPerson: string;
+  phone: string;
+  wechat?: string;
+  province: string;
+  city?: string;
+  variantIds?: string[];       // 用户标记的主供变体
+  rating: 1 | 2 | 3 | 4 | 5;
+  yearsCooperated: number;     // 合作年数
+  status: "active" | "dormant";
+  notes?: string;
+  createdAt: string;           // ISO timestamp
+};
+```
+
+说明：供应商删除采用软删，`status` 置为 `"dormant"`，历史成交记录继续保留 `supplierName` 展示。
+
+---
+
+## 五-B、Transaction 字段（实际成交记录）
+
+```ts
+type Transaction = {
+  id: string;                  // "tx-" + timestamp36
+  variantId: string;           // 关联 Variant.id
+  supplierId?: string;         // 关联 Supplier.id，可为空
+  supplierName: string;        // 冗余名称，未建档也可记录
+  date: string;                // YYYY-MM-DD
+  year: number;                // 从 date 同步更新
+  specGrade?: string;
+  quantity: number;
+  unit: string;                // "斤" | "件" | "箱" | "个"
+  unitPrice: number;
+  totalAmount: number;         // quantity * unitPrice，系统自动计算
+  contractNumber?: string;
+  notes?: string;
+  createdAt: string;           // ISO timestamp
+};
+```
+
+---
+
 ## 六、文件清单与加载顺序
 
 ```
@@ -219,7 +266,8 @@ type Storage = {
   schemaVersion: 1;
   variants: Variant[];     // 用户修改后的覆盖版本（与初始 JSON 合并时以此为准）
   actions: Action[];       // 用户的行动实例
-  suppliers?: Supplier[];  // v1.1
+  suppliers: Supplier[];   // 供应商档案，旧数据加载时默认 []
+  transactions: Transaction[]; // 实际成交记录，旧数据加载时默认 []
   priceHistory?: any[];    // v1.1
   meta: {
     lastSavedAt: string;
