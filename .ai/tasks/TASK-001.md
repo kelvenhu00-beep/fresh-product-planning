@@ -166,3 +166,4 @@ type Transaction = {
 > Codex 每完成一步追加一行，格式: `YYYY-MM-DD HH:MM [账号X] 完成步骤 N: 说明`
 
 - 2026-06-11 21:29 [Codex] 完成步骤 1-2: 扩展 Supplier / Transaction schema 与旧数据兼容兜底；新增 `#/suppliers` 供应商档案页、筛选、卡片、详情编辑面板与软删。
+- 2026-06-11 21:34 [Codex] 完成步骤 3-4: 在变体详情插入「实际成交记录」Section，支持新增 / 删除 / 编辑成交行、自动计算金额，并在采购价 `price-bar` 叠加最近 6 个月成交散点。
