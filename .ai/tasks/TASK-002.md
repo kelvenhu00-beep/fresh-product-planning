@@ -1,9 +1,9 @@
 # TASK-002: Section H 补全编辑 + 删除 Section F 冗余面板
 
 ## 状态
-- [ ] 待开始  [ ] 进行中  [ ] 已完成  [ ] 已验收
+- [ ] 待开始  [ ] 进行中  [x] 已完成  [x] 已验收
 - 创建者: claude
-- 当前执行账号: (Codex 接手时填写)
+- 当前执行账号: Codex
 - 创建时间: 2026-06-12
 
 ## 背景
@@ -133,4 +133,4 @@
 
 > Codex 每完成一步追加一行，格式: `YYYY-MM-DD HH:MM [账号X] 完成步骤 N: 说明`
 
--
+- 2026-06-12 16:14 [Codex] 完成步骤 1-3: Section H 新增 header 编辑态，覆盖基础字段、产地、核心产区、标签、优先级、数据可信度和备注；删除 Section F「完整字段编辑」及 `renderFallbackSection` / `renderVariantTab` / `ui.variantTab`；完成静态语法、内嵌 JSON、全路由渲染和保存/取消/tags 模拟验证。
