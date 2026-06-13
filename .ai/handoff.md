@@ -7,14 +7,9 @@
 
 ## ⬇️ Codex 下一步：按顺序执行
 
-### 第 1 步（立即开始）：重新内嵌变体 JSON
-`数据_variants.json` 已由 Claude 扩充（104 → 179 个变体，覆盖销售清单全品类）。
-**Codex 需把更新后的 `数据_variants.json` 重新内嵌到 `index.html` 的 `<script id="data-variants">` 标签内。**
-操作与之前内嵌 coreOrigin 数据完全相同：读取 JSON 文件，替换 script 标签内容，保持其他代码不变。
-完成后验证：179 个变体全部包含 `name` 和 `coreOrigin.region` 字段，三段内嵌 JSON 解析正常，无 console error。
-commit 格式：`[data-embed][codex-X] 重新内嵌 179 变体到 index.html`
+### ~~第 1 步：重新内嵌变体 JSON~~ ✅ 已完成（2026-06-13，179 变体验证通过）
 
-### 第 2 步：实现 TASK-003 季后复盘 `#/review`
+### 第 2 步（立即开始）：实现 TASK-003 季后复盘 `#/review`
 见 `.ai/tasks/TASK-003.md`，实现完成后 commit 并更新任务卡执行日志。
 
 ### 第 3 步：实现 TASK-005 淡季看板 `#/offseason`
