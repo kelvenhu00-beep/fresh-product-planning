@@ -1,9 +1,9 @@
 # TASK-005: 淡季看板 `#/offseason`
 
 ## 状态
-- [ ] 待开始  [ ] 进行中  [ ] 已完成  [ ] 已验收
+- [ ] 待开始  [ ] 进行中  [x] 已完成  [ ] 已验收
 - 创建者: claude
-- 当前执行账号: (Codex 接手时填写)
+- 当前执行账号: codex-guominghu
 - 创建时间: 2026-06-12
 
 ## 背景
@@ -173,4 +173,5 @@ function inSeasonRange(week, start, end) {
 
 > Codex 每完成一步追加一行，格式: `YYYY-MM-DD HH:MM [账号X] 完成步骤 N: 说明`
 
--
+- 2026-06-13 23:32 [codex-guominghu] 完成步骤 1-4: 新增 `#/offseason` 淡季看板路由、跨年周次分类、最后补货/旺季后减量/采购空窗三分区、成交记录联动和品类分布图；只处理 priority <= 2 变体。
+- 2026-06-13 23:32 [codex-guominghu] 完成步骤 5: 修复当前文件缺失的页面入口函数导致的启动错误，补齐只读版水果管理/供应商/节庆档入口及 `money`/`percent` 工具，确保淡季页详情跳转和全路由冒烟无 console error。
