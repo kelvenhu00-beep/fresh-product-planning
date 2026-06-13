@@ -626,16 +626,16 @@
       },
       "specs": [
         {
-          "grade": "J",
-          "description": "果径 24-26mm"
+          "grade": "2J",
+          "description": "直径26-28mm，普通"
         },
         {
-          "grade": "JJ",
-          "description": "果径 26-28mm"
+          "grade": "3J",
+          "description": "直径28-30mm，精品"
         },
         {
-          "grade": "JJJ",
-          "description": "果径 28mm 以上，礼盒主力"
+          "grade": "4J",
+          "description": "直径30mm以上，超精品"
         }
       ],
       "procurementPrice": {
@@ -726,19 +726,27 @@
       "specs": [
         {
           "grade": "J",
-          "description": "果径 24-26mm"
+          "description": "直径26-28mm，基础档"
         },
         {
           "grade": "JJ",
-          "description": "果径 26-28mm"
+          "description": "直径28-30mm，主流规格"
         },
         {
           "grade": "JJJ",
-          "description": "果径 28-30mm"
+          "description": "直径30-32mm，精品"
         },
         {
           "grade": "JJJJ",
-          "description": "果径 30mm 以上，顶配"
+          "description": "直径32-34mm，超精品"
+        },
+        {
+          "grade": "5J",
+          "description": "直径34mm以上，顶级礼盒"
+        },
+        {
+          "grade": "XL",
+          "description": "大果特规，约等同 JJJJ"
         }
       ],
       "procurementPrice": {
@@ -829,20 +837,24 @@
       },
       "specs": [
         {
-          "grade": "9.5R",
-          "description": "果径 24mm"
+          "grade": "J",
+          "description": "直径26-28mm，基础档"
         },
         {
-          "grade": "10R",
-          "description": "果径 25-26mm"
+          "grade": "JJ",
+          "description": "直径28-30mm，主流规格"
         },
         {
-          "grade": "10.5R",
-          "description": "果径 26-28mm"
+          "grade": "JJJ",
+          "description": "直径30-32mm，精品"
         },
         {
-          "grade": "11R",
-          "description": "果径 28mm 以上"
+          "grade": "JJJJ",
+          "description": "直径32-34mm，超精品"
+        },
+        {
+          "grade": "5J",
+          "description": "直径34mm以上，顶级礼盒"
         }
       ],
       "procurementPrice": {
@@ -1316,16 +1328,16 @@
       },
       "specs": [
         {
-          "grade": "60#",
-          "description": "果径 60mm"
+          "grade": "无核沃柑",
+          "description": "无核品系，皮更薄，汁更多"
         },
         {
-          "grade": "65#",
-          "description": "果径 65mm 主流"
+          "grade": "1级",
+          "description": "果径65-75mm，标准品"
         },
         {
-          "grade": "70#",
-          "description": "果径 70mm"
+          "grade": "精品",
+          "description": "果径75mm以上，礼盒装"
         }
       ],
       "procurementPrice": {
@@ -1692,20 +1704,16 @@
       },
       "specs": [
         {
-          "grade": "小果",
-          "description": "10-15g/颗"
+          "grade": "特级",
+          "description": "单果30g以上，顶部均匀红色"
         },
         {
-          "grade": "中果",
-          "description": "15-25g/颗"
+          "grade": "精品",
+          "description": "单果20-30g，标准品"
         },
         {
-          "grade": "大果",
-          "description": "25-40g/颗 礼盒装"
-        },
-        {
-          "grade": "巨果",
-          "description": "40g+ 顶级礼盒"
+          "grade": "超大果",
+          "description": "单果40g以上，礼盒专供"
         }
       ],
       "procurementPrice": {
@@ -1797,12 +1805,16 @@
       },
       "specs": [
         {
-          "grade": "标品",
-          "description": "15-25g/颗"
+          "grade": "特级",
+          "description": "单果30g以上，顶部均匀红色"
         },
         {
           "grade": "精品",
-          "description": "25g+ 礼盒装"
+          "description": "单果20-30g，标准品"
+        },
+        {
+          "grade": "超大果",
+          "description": "单果40g以上，礼盒专供"
         }
       ],
       "procurementPrice": {
@@ -1886,16 +1898,28 @@
       },
       "specs": [
         {
-          "grade": "标品",
-          "description": "果径 14-16mm"
+          "grade": "14+",
+          "description": "直径14mm以上，普通散装"
         },
         {
-          "grade": "精品",
-          "description": "果径 16-18mm"
+          "grade": "16+",
+          "description": "直径16mm以上，标准品"
         },
         {
-          "grade": "顶级",
-          "description": "果径 18mm+，礼盒主力"
+          "grade": "18+",
+          "description": "直径18mm以上，精品"
+        },
+        {
+          "grade": "20+",
+          "description": "直径20mm以上，超精品"
+        },
+        {
+          "grade": "22+",
+          "description": "直径22mm以上，巨无霸"
+        },
+        {
+          "grade": "24+",
+          "description": "直径24mm以上，顶级"
         }
       ],
       "procurementPrice": {
@@ -2631,16 +2655,20 @@
       },
       "specs": [
         {
-          "grade": "S",
-          "description": "单果 1.5-2kg"
+          "grade": "楼兰蜜瓜",
+          "description": "新疆楼兰品牌，金黄皮，糖度15度+"
         },
         {
-          "grade": "M",
-          "description": "单果 2-3kg"
+          "grade": "八六王",
+          "description": "高产高糖品系，果径20cm+"
         },
         {
-          "grade": "L",
-          "description": "单果 3kg+"
+          "grade": "晓蜜25",
+          "description": "早熟品系，皮薄汁多"
+        },
+        {
+          "grade": "标准哈密",
+          "description": "常规哈密瓜规格"
         }
       ],
       "procurementPrice": {
@@ -4144,12 +4172,16 @@
       },
       "specs": [
         {
-          "grade": "JJ",
-          "description": "果径 26-28mm"
+          "grade": "2J",
+          "description": "直径26-28mm，普通"
         },
         {
-          "grade": "JJJ",
-          "description": "果径 28mm+"
+          "grade": "3J",
+          "description": "直径28-30mm，精品"
+        },
+        {
+          "grade": "4J",
+          "description": "直径30mm以上，超精品"
         }
       ],
       "procurementPrice": {
@@ -4234,12 +4266,16 @@
       },
       "specs": [
         {
-          "grade": "J",
-          "description": "果径 24mm+"
+          "grade": "2J",
+          "description": "直径26-28mm，普通"
         },
         {
-          "grade": "JJ",
-          "description": "果径 26mm+"
+          "grade": "3J",
+          "description": "直径28-30mm，精品"
+        },
+        {
+          "grade": "4J",
+          "description": "直径30mm以上，超精品"
         }
       ],
       "procurementPrice": {
@@ -5103,12 +5139,16 @@
       },
       "specs": [
         {
-          "grade": "60#",
-          "description": "果径 60mm"
+          "grade": "无核沃柑",
+          "description": "无核品系，皮更薄，汁更多"
         },
         {
-          "grade": "65#",
-          "description": "主流"
+          "grade": "1级",
+          "description": "果径65-75mm，标准品"
+        },
+        {
+          "grade": "精品",
+          "description": "果径75mm以上，礼盒装"
         }
       ],
       "procurementPrice": {
@@ -5791,8 +5831,32 @@
       },
       "specs": [
         {
-          "grade": "Jumbo",
-          "description": "果径 18mm+"
+          "grade": "14+",
+          "description": "直径14mm以上，普通散装"
+        },
+        {
+          "grade": "16+",
+          "description": "直径16mm以上，标准品"
+        },
+        {
+          "grade": "18+",
+          "description": "直径18mm以上，精品"
+        },
+        {
+          "grade": "20+",
+          "description": "直径20mm以上，超精品"
+        },
+        {
+          "grade": "22+",
+          "description": "直径22mm以上，巨无霸"
+        },
+        {
+          "grade": "24+",
+          "description": "直径24mm以上，顶级"
+        },
+        {
+          "grade": "26+",
+          "description": "直径26mm以上，礼盒专供"
         }
       ],
       "procurementPrice": {
@@ -6464,12 +6528,16 @@
       },
       "specs": [
         {
-          "grade": "M",
-          "description": "单果 200-300g"
+          "grade": "小台农",
+          "description": "单果150-250g，皮薄核小"
         },
         {
-          "grade": "L",
-          "description": "单果 300g+"
+          "grade": "大台农",
+          "description": "单果300-500g，主流规格"
+        },
+        {
+          "grade": "特大台农",
+          "description": "单果500g以上，礼盒装"
         }
       ],
       "procurementPrice": {
@@ -7742,16 +7810,16 @@
       },
       "specs": [
         {
-          "grade": "26-28",
-          "description": "果径 26-28mm"
+          "grade": "J",
+          "description": "直径26-28mm"
         },
         {
-          "grade": "28-30",
-          "description": "果径 28-30mm"
+          "grade": "JJ",
+          "description": "直径28-30mm"
         },
         {
-          "grade": "30+",
-          "description": "果径 30mm+ 高端礼盒"
+          "grade": "JJJ",
+          "description": "直径30-32mm，精品"
         }
       ],
       "procurementPrice": {
@@ -12533,16 +12601,20 @@
       },
       "specs": [
         {
-          "grade": "JJ",
-          "description": "直径32-34mm，主流"
+          "grade": "J",
+          "description": "直径28-30mm，基础档"
         },
         {
-          "grade": "J",
-          "description": "28-32mm，普通"
+          "grade": "JJ",
+          "description": "直径30-32mm，主流规格"
         },
         {
           "grade": "JJJ",
-          "description": "34mm+，精品"
+          "description": "直径32-35mm，精品"
+        },
+        {
+          "grade": "大果",
+          "description": "35mm以上，礼盒专供"
         }
       ],
       "procurementPrice": {
@@ -12629,12 +12701,20 @@
       },
       "specs": [
         {
-          "grade": "JJ",
-          "description": "直径32-34mm"
+          "grade": "J",
+          "description": "直径28-30mm，基础档"
         },
         {
-          "grade": "J",
-          "description": "28-32mm"
+          "grade": "JJ",
+          "description": "直径30-32mm，主流规格"
+        },
+        {
+          "grade": "JJJ",
+          "description": "直径32-35mm，精品"
+        },
+        {
+          "grade": "大果",
+          "description": "35mm以上，礼盒专供"
         }
       ],
       "procurementPrice": {

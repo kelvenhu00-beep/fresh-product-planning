@@ -6,6 +6,7 @@
 - **TASK-003** 季后复盘 `#/review`：等待 Codex 执行
 - **TASK-004** 节庆档动态化（农历）：Codex 已完成实现并提交，等待 Claude 验收
 - **TASK-005** 淡季看板 `#/offseason`：等待 Codex 执行（与 TASK-004 并行）
+- **[数据内嵌]** `数据_variants.json` 已由 Claude 更新（104→179 变体），**Codex 需重新内嵌到 `index.html` 的 `<script id="data-variants">` 块**（与之前 coreOrigin 内嵌操作相同）
 
 ## 队列中
 1. TASK-006：销售数据 CSV 导入（用户整理好数据后规划）
