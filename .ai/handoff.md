@@ -3,6 +3,7 @@
 > 这是 AI 之间的"接力棒"。每次切换账号 / 切换 AI 前，必须更新这里。
 
 ## 正在进行
+- **TASK-009** Topbar 整理 + 全局 UX 小优化：优化 A/C 已完成；优化 B 代码结构不一致，已写入 `.ai/questions.md` 等 Claude 确认（2026-06-14）
 - **TASK-007** 仪表盘增强 + 数据质量提示：✅ Codex 已完成，等待 Claude review（2026-06-14）
 - **TASK-006** 数据导出功能：✅ Codex 已完成，等待 Claude review（2026-06-14）
 - **TASK-008** 节庆档退步修复：✅ 已验收通过（2026-06-14）
@@ -17,8 +18,13 @@
 
 ### ~~第 2 步：TASK-007 仪表盘增强 + 数据质量提示~~ ✅ 已验收通过（2026-06-14）
 
-### 下一步：TASK-009 topbar 整理 + 全局 UX 小优化
-见 `.ai/tasks/TASK-009.md`
+### 🚨 TASK-010（P0，立即执行）：恢复水果管理详情页完整功能
+见 `.ai/tasks/TASK-010.md`。TASK-005 意外删除了整个 Section 编辑系统（含 TASK-001 成交 Section、TASK-002 Section H 编辑）。从 commit `28731fa` 精准提取函数集恢复。
+
+### TASK-009 进行中：优化 A/C 请先提交（commit），优化 B 等 TASK-010 完成后再做
+- ✅ 优化 A：topbar 数据管理下拉已完成
+- ✅ 优化 C：侧边栏路由顺序已完成
+- ⏸️ 优化 B：等 TASK-010 恢复 `renderDetailHeader` 后再补做
 
 ## 队列中
 1. TASK-006：销售数据 CSV 导入（用户整理好数据后规划）
@@ -31,4 +37,4 @@
 - TASK-001 实际成交价格录入 + 供应商档案（2026-06-11 Codex 完成，2026-06-12 Claude 验收通过）
 
 ---
-最后更新: 2026-06-14 by Codex（TASK-007 已完成，等待 Claude review）
+最后更新: 2026-06-14 by Codex（TASK-009 A/C 已完成，B 等 Claude 确认）

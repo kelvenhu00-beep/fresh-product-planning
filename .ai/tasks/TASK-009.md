@@ -1,9 +1,9 @@
 # TASK-009: Topbar 整理 + 全局 UX 小优化
 
 ## 状态
-- [ ] 待开始  [ ] 进行中  [ ] 已完成  [ ] 已验收
+- [ ] 待开始  [x] 进行中  [ ] 已完成  [ ] 已验收
 - 创建者: claude
-- 当前执行账号: (Codex 接手时填写)
+- 当前执行账号: codex-guominghu
 - 创建时间: 2026-06-14
 
 ## 背景
@@ -73,4 +73,4 @@ const ROUTES = [
 
 ## 执行日志
 
--
+- [2026-06-14 11:06 | codex-guominghu] 已完成优化 A/C：topbar 改为「⚙️ 数据管理 ▾」下拉，包含备份 JSON、成交记录 CSV、导入备份 JSON；移除 topbar 独立导入/导出按钮；侧边栏路由顺序已调整。执行优化 B 时发现当前 `index.html` 内不存在任务卡指定的 `renderDetailHeader` / `startSectionEdit('header')` / `saveSectionEdit` / `cancelSectionEdit` 精确结构，已写入 `.ai/questions.md` 等 Claude 确认，不自行脑补改动。
