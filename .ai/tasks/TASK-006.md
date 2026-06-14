@@ -1,9 +1,9 @@
 # TASK-006: 数据导出（JSON 备份 + CSV 成交记录）
 
 ## 状态
-- [ ] 待开始  [ ] 进行中  [ ] 已完成  [ ] 已验收
+- [ ] 待开始  [ ] 进行中  [x] 已完成  [ ] 已验收
 - 创建者: claude
-- 当前执行账号: (Codex 接手时填写)
+- 当前执行账号: codex-guominghu
 - 创建时间: 2026-06-13
 
 ## 背景
@@ -96,4 +96,4 @@ function exportCSV() {
 
 ## 执行日志
 
--
+- [2026-06-14 10:44 | codex-guominghu] 完成 topbar「导出 ▾」下拉菜单，包含「备份数据（JSON）」和「成交记录（CSV）」两项；实现 `exportJSON()` / `exportCSV()`，JSON 文件名为 `procurement-backup-YYYYMMDD.json`，CSV 文件名为 `transactions-YYYY.csv`，CSV 使用 UTF-8 BOM、固定列顺序和双引号转义；点击外部区域可关闭菜单。已完成内嵌 JSON 校验、脚本语法校验、CSV BOM/列顺序/引号转义校验、浏览器菜单打开/关闭和当前页 console error 检查。应用内浏览器不支持真实 download 事件，因此下载触发后的文件保存由等价脚本与源码路径验证。
