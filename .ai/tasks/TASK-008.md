@@ -1,9 +1,9 @@
 # TASK-008: 修复节庆档退步（恢复完整 11 节庆 + 动态周次）
 
 ## 状态
-- [ ] 待开始  [ ] 进行中  [ ] 已完成  [ ] 已验收
+- [ ] 待开始  [ ] 进行中  [x] 已完成  [ ] 已验收
 - 创建者: claude
-- 当前执行账号: (Codex 接手时填写)
+- 当前执行账号: codex-guominghu
 - 创建时间: 2026-06-13
 - **优先级：P0，阻断，先于 TASK-006/007 执行**
 
@@ -145,4 +145,5 @@ function festivalWeeks(f) {
 
 ## 执行日志
 
--
+- 2026-06-14 10:24 [codex-guominghu] 完成步骤 1-4: 将节庆档恢复为 `buildFestivals(year)` 动态构建 11 个节庆，恢复 `renderFestivalCard` 双区域布局、`festivalWeeks` 跨年安全循环和 `weekMonthText` 周次日期文案。
+- 2026-06-14 10:24 [codex-guominghu] 验证: 内嵌 JSON 与脚本语法通过；2026 节庆数 11，春节窗口 W7-W10，端午窗口 W24-W26 且 W24 高亮；浏览器验证 11 张卡、22 个 `festival-section`、无当前页 console error。
